@@ -1,0 +1,17 @@
+.side-section__container__title {
+    font-size: 52px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.side-section__container__content {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2rem;
+}
+
+.side-section__container {
+    /* width: 80%; */
+}

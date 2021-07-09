@@ -1,0 +1,20 @@
+.nav__links__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding: 0 4rem;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #895bb8;
+}
+.nav__links__list a:hover {
+    color: brown;
+    background-color: rgba(0, 0, 0, .05);
+}
