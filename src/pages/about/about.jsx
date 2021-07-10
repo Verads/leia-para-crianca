@@ -2,6 +2,7 @@ import React from 'react'
 import PrimaryButton from '../../components/button/primary-button'
 import Navbar from '../../components/navigation/Nav'
 import Footer from '../../components/footer/footer'
+import { Link } from 'react-router-dom'
 import './about.css'
 
 function About() {
@@ -18,7 +19,10 @@ function About() {
 
                 <h5>Para saber mais, clique no botão abaixo:</h5>
 
+                <div className="about-btn"> <Link to="/godfather" >
                 <PrimaryButton title="Saiba mais" />
+                </Link>
+                </div>
 
             </section>
 
